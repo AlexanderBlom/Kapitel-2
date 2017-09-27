@@ -1,4 +1,4 @@
-import javax.swing.*;
+﻿import javax.swing.*;
 /*
 Program som plockar ut det första och sista ordet ur en mening.
 Alexander Blom
@@ -19,7 +19,7 @@ public class Uppgift2_3{
 		ord2 = mening.substring(ord2Plac);
 
 
-		JOptionPane.showMessageDialog(null, "Du skrev en mening med " + meningAntal + " ord." + 
+		JOptionPane.showMessageDialog(null, "Du skrev en mening med " + meningAntal + " bokstäver." + 
 										"\n Det forsta ordet var " + ord1 +
 										"\n Det sista ordet var " + ord2 );
 	}
